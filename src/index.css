@@ -1,48 +1,49 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 13%; /* #222222 */
-    --foreground: 24 100% 95%; /* #FFF1E6 */
+    --background: 36 33% 97%; /* #F9F7F2 - cream background */
+    --foreground: 32 15% 25%; /* #4F4941 - soft dark text */
 
-    --card: 0 0% 15%;
-    --card-foreground: 24 100% 95%;
+    --card: 36 33% 97%;
+    --card-foreground: 32 15% 25%;
 
-    --popover: 0 0% 13%;
-    --popover-foreground: 24 100% 95%;
+    --popover: 36 33% 97%;
+    --popover-foreground: 32 15% 25%;
 
-    --primary: 16 74% 52%; /* #E25822 */
-    --primary-foreground: 24 100% 95%;
+    --primary: 17 56% 55%; /* #D1754F - softer orange */
+    --primary-foreground: 36 33% 97%;
 
-    --secondary: 16 54% 43%; /* #A83232 */
-    --secondary-foreground: 24 100% 95%;
+    --secondary: 9 35% 42%; /* #9C5446 - muted brick red */
+    --secondary-foreground: 36 33% 97%;
 
-    --muted: 0 0% 20%;
-    --muted-foreground: 24 20% 80%;
+    --muted: 32 15% 92%;
+    --muted-foreground: 32 10% 45%;
 
-    --accent: 16 100% 69%;
-    --accent-foreground: 0 0% 13%;
+    --accent: 17 30% 65%;
+    --accent-foreground: 32 15% 25%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 24 100% 95%;
+    --destructive-foreground: 36 33% 97%;
 
-    --border: 16 30% 30%;
-    --input: 16 30% 30%;
-    --ring: 16 74% 52%;
+    --border: 17 20% 75%;
+    --input: 17 20% 75%;
+    --ring: 17 56% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Fogón custom colors */
+    --fogon-cream: 36 33% 97%; /* #F9F7F2 */
+    --fogon-dark: 32 15% 25%; /* #4F4941 */
+    --fogon-amber: 17 56% 55%; /* #D1754F - softer orange */
+    --fogon-ember: 12 62% 50%; /* #C85C3E - deeper ember */
+    --fogon-red: 9 35% 42%; /* #9C5446 - muted brick red */
+    --fogon-paper: 36 33% 95%; /* #F6F3EC - paper background */
   }
 }
 
@@ -52,21 +53,47 @@
   }
 
   body {
-    @apply bg-fogon-dark text-fogon-cream;
-    font-family: 'Lora', serif;
+    @apply bg-fogon-paper text-fogon-dark;
+    font-family: 'Cormorant Garamond', serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif;
+    @apply font-handwritten;
   }
 }
 
 @layer utilities {
   .glow-text {
-    text-shadow: 0 0 10px rgba(255, 127, 80, 0.7);
+    text-shadow: 0 0 5px rgba(209, 117, 79, 0.4);
   }
   
   .ember-border {
-    box-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
+    box-shadow: 0 0 5px rgba(200, 92, 62, 0.3);
+  }
+
+  .card-border {
+    border: 2px solid #000;
+    border-radius: 16px;
+    padding: 1.5rem;
+    background-color: #F9F7F2;
+    position: relative;
+  }
+
+  .card-border::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    pointer-events: none;
+  }
+
+  .corner-decoration::after {
+    content: '•';
+    position: absolute;
+    font-size: 24px;
   }
 }

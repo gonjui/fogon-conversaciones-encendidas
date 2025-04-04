@@ -65,12 +65,12 @@ export default {
 				},
                 // Fogón custom colors
                 fogon: {
-                    amber: "#FF7F50",
-                    red: "#A83232",
-                    dark: "#222222",
-                    cream: "#FFF1E6",
-                    orange: "#E25822",
-                    ember: "#FF4500",
+                    cream: "#F9F7F2",
+                    dark: "#4F4941",
+                    amber: "#D1754F",
+                    ember: "#C85C3E",
+                    red: "#9C5446",
+                    paper: "#F6F3EC",
                 }
 			},
 			borderRadius: {
@@ -97,11 +97,11 @@ export default {
 				},
                 'ember-glow': {
                     '0%, 100%': {
-                        opacity: '0.6',
+                        opacity: '0.4',
                         transform: 'scale(0.98)'
                     },
                     '50%': {
-                        opacity: '1',
+                        opacity: '0.7',
                         transform: 'scale(1)'
                     }
                 }
@@ -109,11 +109,15 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-                'ember-glow': 'ember-glow 3s ease-in-out infinite'
+                'ember-glow': 'ember-glow 4s ease-in-out infinite'
 			},
             backgroundImage: {
-                'campfire-gradient': 'linear-gradient(to top, #222222 0%, #3D1A13 100%)',
-                'ember-gradient': 'radial-gradient(circle, rgba(255,127,80,0.2) 0%, rgba(255,69,0,0) 70%)',
+                'campfire-gradient': 'linear-gradient(to top, #F6F3EC 0%, #EBE5D9 100%)',
+                'ember-gradient': 'radial-gradient(circle, rgba(209,117,79,0.15) 0%, rgba(200,92,62,0) 70%)',
+            },
+            fontFamily: {
+                'serif': ['Cormorant Garamond', 'serif'],
+                'handwritten': ['Pangolin', 'cursive'],
             }
 		}
 	},
