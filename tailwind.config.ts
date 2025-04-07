@@ -71,7 +71,14 @@ export default {
                     ember: "#C85C3E",
                     red: "#9C5446",
                     paper: "#F6F3EC",
-                }
+                },
+                // New expanded palette colors
+                "moss-green": "#657B5E",
+                "moss-light": "#B3C196",
+                "ochre": "#D8A656",
+                "ochre-light": "#F2D394",
+                "wood-brown": "#A67C52",
+                "clay-red": "#B84A3E"
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -140,6 +147,22 @@ export default {
                     '50%': {
                         transform: 'translateY(-10px)'
                     }
+                },
+                'pulse-glow': {
+                    '0%, 100%': {
+                        boxShadow: '0 0 8px 2px rgba(209, 117, 79, 0.3)'
+                    },
+                    '50%': {
+                        boxShadow: '0 0 15px 5px rgba(209, 117, 79, 0.5)'
+                    }
+                },
+                'paper-wave': {
+                    '0%, 100%': {
+                        borderRadius: '70% 30% 30% 70% / 60% 40% 60% 40%'
+                    },
+                    '50%': {
+                        borderRadius: '30% 60% 70% 40% / 50% 60% 30% 60%'
+                    }
                 }
 			},
 			animation: {
@@ -149,16 +172,27 @@ export default {
                 'fade-in': 'fade-in 0.3s ease-out',
                 'fade-out': 'fade-out 0.3s ease-out',
                 'card-flip': 'card-flip 0.6s ease-out',
-                'float': 'float 3s ease-in-out infinite'
+                'float': 'float 3s ease-in-out infinite',
+                'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
+                'paper-wave': 'paper-wave 8s ease-in-out infinite'
 			},
             backgroundImage: {
                 'campfire-gradient': 'linear-gradient(to top, #F6F3EC 0%, #EBE5D9 100%)',
                 'ember-gradient': 'radial-gradient(circle, rgba(209,117,79,0.15) 0%, rgba(200,92,62,0) 70%)',
-                'card-gradient': 'linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%)'
+                'card-gradient': 'linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%)',
+                'moss-gradient': 'linear-gradient(135deg, #657B5E 0%, #B3C196 100%)',
+                'ochre-gradient': 'linear-gradient(135deg, #D8A656 0%, #F2D394 100%)',
+                'paper-texture': 'url("/textures/paper-texture.png")'
             },
             fontFamily: {
                 'serif': ['Cormorant Garamond', 'serif'],
                 'handwritten': ['Pangolin', 'cursive'],
+                'sans': ['Inter', 'sans-serif'],
+            },
+            boxShadow: {
+                'amber': '0 4px 15px -3px rgba(209, 117, 79, 0.3)',
+                'paper': '0 2px 10px -2px rgba(0, 0, 0, 0.1)',
+                'card': '0 3px 15px -1px rgba(0, 0, 0, 0.15), 0 1px 5px -1px rgba(0, 0, 0, 0.1)'
             }
 		}
 	},
