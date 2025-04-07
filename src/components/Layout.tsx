@@ -1,21 +1,42 @@
 
 import React from "react";
 import { Flame } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 
 const Layout = ({ children }: LayoutProps) => {
+  const location = useLocation();
+  
   return (
     <div className="flex flex-col min-h-screen bg-fogon-paper">
       <header className="py-4 px-6 border-b border-fogon-red/20">
         <div className="container max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Flame className="h-6 w-6 text-fogon-amber" />
-            <span className="text-2xl font-handwritten text-fogon-dark">Fogón</span>
+            <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+              <Flame className="h-6 w-6 text-fogon-amber" />
+              <span className="text-2xl font-handwritten text-fogon-dark">Fogón</span>
+            </Link>
           </div>
           <nav className="hidden md:flex gap-8">
+            <Link 
+              to="/" 
+              className={`text-fogon-dark/80 hover:text-fogon-amber transition-all font-serif ${
+                location.pathname === "/" ? "text-fogon-amber" : ""
+              }`}
+            >
+              Inicio
+            </Link>
+            <Link 
+              to="/juego" 
+              className={`text-fogon-dark/80 hover:text-fogon-amber transition-all font-serif ${
+                location.pathname === "/juego" ? "text-fogon-amber" : ""
+              }`}
+            >
+              Experiencia
+            </Link>
             <a href="#historia" className="text-fogon-dark/80 hover:text-fogon-amber transition-all font-serif">
               Historia
             </a>

@@ -104,16 +104,57 @@ export default {
                         opacity: '0.7',
                         transform: 'scale(1)'
                     }
+                },
+                'fade-in': {
+                    '0%': {
+                        opacity: '0',
+                        transform: 'translateY(10px)'
+                    },
+                    '100%': {
+                        opacity: '1',
+                        transform: 'translateY(0)'
+                    }
+                },
+                'fade-out': {
+                    '0%': {
+                        opacity: '1',
+                        transform: 'translateY(0)'
+                    },
+                    '100%': {
+                        opacity: '0',
+                        transform: 'translateY(10px)'
+                    }
+                },
+                'card-flip': {
+                    '0%': {
+                        transform: 'rotateY(0deg)'
+                    },
+                    '100%': {
+                        transform: 'rotateY(180deg)'
+                    }
+                },
+                'float': {
+                    '0%, 100%': {
+                        transform: 'translateY(0)'
+                    },
+                    '50%': {
+                        transform: 'translateY(-10px)'
+                    }
                 }
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-                'ember-glow': 'ember-glow 4s ease-in-out infinite'
+                'ember-glow': 'ember-glow 4s ease-in-out infinite',
+                'fade-in': 'fade-in 0.3s ease-out',
+                'fade-out': 'fade-out 0.3s ease-out',
+                'card-flip': 'card-flip 0.6s ease-out',
+                'float': 'float 3s ease-in-out infinite'
 			},
             backgroundImage: {
                 'campfire-gradient': 'linear-gradient(to top, #F6F3EC 0%, #EBE5D9 100%)',
                 'ember-gradient': 'radial-gradient(circle, rgba(209,117,79,0.15) 0%, rgba(200,92,62,0) 70%)',
+                'card-gradient': 'linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%)'
             },
             fontFamily: {
                 'serif': ['Cormorant Garamond', 'serif'],
