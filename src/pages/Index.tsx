@@ -7,14 +7,12 @@ import HowToPlay from "@/components/HowToPlay";
 import Special from "@/components/Special";
 import Product from "@/components/Product";
 import Community from "@/components/Community";
-import CardSection from "@/components/CardSection";
 
 const Index = () => {
   return (
     <Layout>
       <Hero />
       <Story />
-      <CardSection />
       <HowToPlay />
       <Special />
       <Product />
