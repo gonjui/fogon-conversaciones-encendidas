@@ -50,12 +50,7 @@ const Layout = ({ children }: LayoutProps) => {
               Producto
             </a>
           </nav>
-          <a 
-            href="#comunidad" 
-            className="px-4 py-2 bg-fogon-amber hover:bg-fogon-ember transition-colors rounded-md text-fogon-cream font-medium font-serif"
-          >
-            Únete
-          </a>
+          <div className="w-24"></div> {/* Empty div to maintain layout balance */}
         </div>
       </header>
       <main className="flex-grow">

@@ -9,18 +9,6 @@ const Hero = () => {
       <div className="absolute inset-0 bg-ember-gradient opacity-30 parallax-bg"></div>
       <div className="container max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
-          <motion.div 
-            className="mb-8"
-            initial={{ y: -20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5 }}
-          >
-            <img 
-              src="/lovable-uploads/ac06b5f0-7980-4f24-8778-e52b00ce2c78.png" 
-              alt="Fogón - Fuego de campamento" 
-              className="w-32 h-auto animate-ember-glow"
-            />
-          </motion.div>
           <motion.h1 
             className="text-4xl md:text-5xl font-handwritten mb-8 tracking-wide text-fogon-dark"
             initial={{ y: 20, opacity: 0 }}
