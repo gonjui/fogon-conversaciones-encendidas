@@ -9,6 +9,18 @@ const Hero = () => {
       <div className="absolute inset-0 bg-ember-gradient opacity-30 parallax-bg"></div>
       <div className="container max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
+          <motion.div 
+            className="mb-8"
+            initial={{ y: -20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            <img 
+              src="/lovable-uploads/e7e96892-e555-48b4-adfd-0b5274995dd8.png" 
+              alt="Fogón - Campfire with pine trees" 
+              className="w-48 h-auto animate-ember-glow"
+            />
+          </motion.div>
           <motion.h1 
             className="text-4xl md:text-5xl font-handwritten mb-8 tracking-wide text-fogon-dark"
             initial={{ y: 20, opacity: 0 }}
@@ -27,16 +39,10 @@ const Hero = () => {
             </p>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link
-              to="/juego"
-              className="px-6 py-3 bg-[#D35400] hover:bg-[#5A2E0C] transition-all duration-300 rounded-[28px] text-[#F5EDE2] font-medium text-lg font-serif hover:scale-105 shadow-amber"
-            >
-              Vivir la Experiencia
-            </Link>
+          <div>
             <a
               href="#producto"
-              className="px-6 py-3 bg-transparent border-2 border-[#8B5E3C]/70 text-[#8B5E3C] hover:border-[#2E5339] hover:text-[#2E5339] transition-all duration-300 rounded-[28px] font-medium text-lg font-serif"
+              className="px-6 py-3 bg-[#8B5E3C] hover:bg-[#5A2E0C] transition-all duration-300 rounded-[28px] text-[#F5EDE2] font-medium text-lg font-serif hover:scale-105 shadow-amber"
             >
               Consíguelo Ahora
             </a>

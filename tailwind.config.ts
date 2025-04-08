@@ -131,7 +131,8 @@ export default {
             backgroundImage: {
                 'campfire-gradient': 'linear-gradient(to top, #F5EDE2 0%, #EBE5D9 100%)',
                 'ember-gradient': 'radial-gradient(circle, rgba(211,84,0,0.15) 0%, rgba(90,46,12,0) 70%)',
-                'paper-texture': 'url("/textures/paper-texture.png")'
+                'paper-texture': 'url("/textures/paper-texture.png")',
+                'starry-night-gradient': 'linear-gradient(to bottom, #0f172a 0%, #1e293b 100%), url("/lovable-uploads/c21d5c2b-3172-4b49-849f-9628f55f63cc.png")'
             },
             fontFamily: {
                 'serif': ['Cormorant Garamond', 'serif'],
