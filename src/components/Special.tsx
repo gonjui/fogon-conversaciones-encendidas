@@ -8,7 +8,7 @@ const Special = () => {
       <div className="container max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-handwritten mb-6 text-[#5A2E0C]">
-            ¿Por qué usar <span className="text-[#D35400]">Fogón</span>?
+            ¿Qué hace especial a <span className="text-[#D35400]">Fogón</span>?
           </h2>
           <p className="text-[#5A2E0C]/90 text-lg max-w-3xl mx-auto font-serif">
             Más que un simple juego de cartas, Fogón es una experiencia diseñada para fomentar conexiones genuinas en un mundo cada vez más desconectado.
@@ -33,7 +33,7 @@ const Special = () => {
               <Flame className="h-8 w-8 text-[#D35400] mb-4" />
               <h3 className="text-xl font-handwritten mb-3 text-[#5A2E0C]">Diseño Inspirado en la Calidez</h3>
               <p className="text-[#5A2E0C]/90 leading-relaxed font-serif">
-                El diseño visual de Fogón evoca la atmósfera íntima de una reunión alrededor del fuego. Cada elemento gráfico está pensado para crear una sensación de calidez y apertura, invitando a compartir sin reservas.
+                El diseño visual de Fogón inspirado en el ritual del fogón, este mazo busca despertar conversaciones que dejen huellar .
               </p>
             </div>
           </div>
