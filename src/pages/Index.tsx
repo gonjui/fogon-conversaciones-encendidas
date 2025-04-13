@@ -6,12 +6,14 @@ import Story from "@/components/Story";
 import HowToPlay from "@/components/HowToPlay";
 import Special from "@/components/Special";
 import Product from "@/components/Product";
+import ConoceFogon from "@/components/ConoceFogon";
 
 const Index = () => {
   return (
     <Layout>
       <Hero />
       <Story />
+      <ConoceFogon />
       <HowToPlay />
       <Special />
       <Product />
