@@ -28,15 +28,11 @@ const ConoceFogon = () => {
       </div>
       
       <div className="container max-w-7xl mx-auto px-6 relative z-10">
-        <h1 className="text-4xl md:text-5xl font-handwritten mb-14 text-center text-fogon-cream glow-text">
-          Conoce Fogón
-        </h1>
-        
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-handwritten mb-8 text-center text-fogon-amber">
-            Cómo encender la conversación
-          </h2>
+        <h2 className="text-3xl md:text-4xl font-handwritten mb-8 text-center text-fogon-amber">
+          Cómo encender la conversación
+        </h2>
           
+        <div className="max-w-4xl mx-auto">
           <div className="organic-border bg-[#F5EDE2]/90 backdrop-blur-sm shadow-paper">
             <div className="flex items-center justify-center mb-6">
               <div className="w-12 h-12 rounded-full bg-[#D35400]/10 flex items-center justify-center">

@@ -37,8 +37,8 @@ const Layout = ({ children }: LayoutProps) => {
             <a href="#historia" className="text-fogon-cream/90 hover:text-fogon-amber transition-all font-serif">
               Historia
             </a>
-            <a href="#como-jugar" className="text-fogon-cream/90 hover:text-fogon-amber transition-all font-serif">
-              Cómo Jugar
+            <a href="#conoce-fogon" className="text-fogon-cream/90 hover:text-fogon-amber transition-all font-serif">
+              Cómo Encender
             </a>
             <a href="#que-lo-hace-especial" className="text-fogon-cream/90 hover:text-fogon-amber transition-all font-serif">
               Lo Especial
@@ -54,6 +54,7 @@ const Layout = ({ children }: LayoutProps) => {
         {children}
       </main>
       <footer className="py-6 border-t border-fogon-red/20 bg-starry-night-gradient relative">
+        <div className="absolute inset-0 bg-[url('/lovable-uploads/3eeeb2b6-3a62-4ce8-a88e-550e79113c9b.png')] bg-cover bg-center opacity-40 mix-blend-soft-light"></div>
         <div className="absolute inset-0 bg-ember-gradient opacity-20"></div>
         <div className="container max-w-7xl mx-auto px-6 relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">

@@ -13,7 +13,7 @@ const Story = () => {
             </div>
           </div>
           <h2 className="text-3xl md:text-4xl font-handwritten mb-8 text-center text-[#5A2E0C]">
-            ¿Qué es <span className="text-[#D35400]">Fogón</span>?
+            La historia de <span className="text-[#D35400]">Fogón</span>
           </h2>
           <div className="organic-border">
             <div className="prose prose-lg mx-auto text-[#5A2E0C] font-serif">

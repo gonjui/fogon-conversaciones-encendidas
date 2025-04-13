@@ -3,10 +3,9 @@ import React from "react";
 import Layout from "@/components/Layout";
 import Hero from "@/components/Hero";
 import Story from "@/components/Story";
-import HowToPlay from "@/components/HowToPlay";
+import ConoceFogon from "@/components/ConoceFogon";
 import Special from "@/components/Special";
 import Product from "@/components/Product";
-import ConoceFogon from "@/components/ConoceFogon";
 
 const Index = () => {
   return (
@@ -14,7 +13,6 @@ const Index = () => {
       <Hero />
       <Story />
       <ConoceFogon />
-      <HowToPlay />
       <Special />
       <Product />
     </Layout>
