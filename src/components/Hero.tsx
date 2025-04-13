@@ -1,6 +1,5 @@
 
 import React from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -17,7 +16,7 @@ const Hero = () => {
           >
             <img 
               src="/lovable-uploads/e7e96892-e555-48b4-adfd-0b5274995dd8.png" 
-              alt="Fogón - Campfire with pine trees" 
+              alt="Fogón - Mazo de cartas para conversación significativa" 
               className="w-48 h-auto animate-ember-glow"
             />
           </motion.div>
@@ -27,7 +26,7 @@ const Hero = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Bienvenido al <span className="text-fogon-amber glow-text">fogón</span>
+            Fogón: El mazo de cartas para conversaciones reales y conexión auténtica
           </motion.h1>
           
           <div className="organic-border mb-12 max-w-2xl hover:ember-border transition-all duration-300">
@@ -41,10 +40,12 @@ const Hero = () => {
           
           <div>
             <a
-              href="#producto"
+              href="https://trukigames.store/producto/fogon/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 bg-[#8B5E3C] hover:bg-[#5A2E0C] transition-all duration-300 rounded-[28px] text-[#F5EDE2] font-medium text-lg font-serif hover:scale-105 shadow-amber"
             >
-              Consíguelo Ahora
+              Conseguí tu Fogón ahora
             </a>
           </div>
         </div>

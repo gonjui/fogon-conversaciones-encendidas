@@ -13,12 +13,12 @@ const Story = () => {
             </div>
           </div>
           <h2 className="text-3xl md:text-4xl font-handwritten mb-8 text-center text-[#5A2E0C]">
-            La Historia del <span className="text-[#D35400]">Fogón</span>
+            ¿Qué es <span className="text-[#D35400]">Fogón</span>?
           </h2>
           <div className="organic-border">
             <div className="prose prose-lg mx-auto text-[#5A2E0C] font-serif">
               <p className="text-lg leading-relaxed mb-4">
-                Hace tiempo, cuando las noches eran largas y las historias cortas, un grupo de amigos se reunió alrededor de un fuego. Sin distracciones, sin pantallas, solo la danza hipnótica de las llamas y la calidez de la compañía humana.
+                Fogón es un mazo de cartas diseñado para inspirar conversaciones profundas. Ideal para cenas, reuniones familiares, encuentros con amigos o dinámicas de equipo. Cada carta es un disparador que invita a compartir historias, pensamientos y emociones auténticas.
               </p>
               <p className="text-lg leading-relaxed mb-4">
                 Entre las chispas y las brasas, surgieron preguntas. No las habituales sobre el día a día, sino aquellas que tocan el alma, que desvelan secretos guardados y sueños olvidados. Preguntas que crearon puentes invisibles entre corazones.

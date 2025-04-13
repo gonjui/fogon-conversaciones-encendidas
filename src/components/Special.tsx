@@ -8,7 +8,7 @@ const Special = () => {
       <div className="container max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-handwritten mb-6 text-[#5A2E0C]">
-            Lo que Hace <span className="text-[#D35400]">Especial</span> a Fogón
+            ¿Por qué usar <span className="text-[#D35400]">Fogón</span>?
           </h2>
           <p className="text-[#5A2E0C]/90 text-lg max-w-3xl mx-auto font-serif">
             Más que un simple juego de cartas, Fogón es una experiencia diseñada para fomentar conexiones genuinas en un mundo cada vez más desconectado.
@@ -51,6 +51,9 @@ const Special = () => {
         </div>
         
         <div className="mt-16 mx-auto max-w-3xl text-center">
+          <h2 className="text-3xl md:text-4xl font-handwritten mb-6 text-[#5A2E0C]">
+            <span className="text-[#D35400]">Testimonios</span>
+          </h2>
           <div className="organic-border">
             <p className="text-[#D35400] text-lg font-medium mb-4 font-handwritten">Lo que dicen nuestros jugadores</p>
             <blockquote className="text-[#5A2E0C]/90 text-xl italic mb-4 font-serif">

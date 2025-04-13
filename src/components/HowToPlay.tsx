@@ -7,7 +7,7 @@ const HowToPlay = () => {
     <section id="como-jugar" className="py-20 bg-[#F5EDE2]/80 relative overflow-hidden">
       <div className="container max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-handwritten mb-12 text-center text-[#5A2E0C]">
-          Cómo Encender la <span className="text-[#D35400]">Conversación</span>
+          ¿Cómo se <span className="text-[#D35400]">juega</span>?
         </h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <div className="organic-border group hover:shadow-paper transition-all duration-300">
