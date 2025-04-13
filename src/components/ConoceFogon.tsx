@@ -64,7 +64,7 @@ const ConoceFogon = () => {
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#D35400]/20 flex items-center justify-center mt-1">
                     <span className="text-[#D35400] font-semibold">3</span>
                   </div>
-                  <p className="text-lg leading-relaxed m-0">Si querés compartir lo que sentiste o pensaste, colocá la rama en el Fogón (el centro de la mesa) y hablá.</p>
+                  <p className="text-lg leading-relaxed m-0">Si querés compartir lo que sentiste o pensaste, colocá la rama en el Fogón y compartí.</p>
                 </li>
                 
                 <li className="flex items-start gap-4">
