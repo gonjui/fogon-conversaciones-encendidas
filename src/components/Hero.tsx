@@ -32,10 +32,7 @@ const Hero = () => {
           
           <div className="organic-border mb-12 max-w-2xl hover:ember-border transition-all duration-300 bg-[#F5EDE2]/80 backdrop-blur-sm">
             <p className="text-xl md:text-2xl text-fogon-dark font-handwritten leading-relaxed">
-              Cada carta es una rama que puedes leer para ti mismo. Si decides compartir lo que has leído, coloca la rama en el fogón, si no devuelve la rama al montón. Puedes tomar otra rama y repetir el proceso si lo deseas.
-            </p>
-            <p className="text-xl md:text-2xl text-fogon-dark font-handwritten mt-4 leading-relaxed">
-              ¡Que el fogón los ilumine y los guíe!
+            Un fogón que viaja con vos. Sin reglas ni guiones. Prendé el fuego de las conversaciones
             </p>
           </div>
           
